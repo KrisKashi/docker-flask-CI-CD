@@ -11,4 +11,4 @@ jobs:
       - name: Checkout code 
         uses: actions/checkout@v4
       - name: Build Docker image 
-        run: docker build -t docker-flask-app 
+        run: docker build -t docker-flask-app . 
